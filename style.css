@@ -1,35 +1,35 @@
 /* ---------- CUSTOM FONTS ---------- */
 @font-face {
   font-family: 'Metropolis';
-  src: url('fonts/Metropolis-Regular.otf') format('opentype');
+  src: url('Metropolis-Regular.otf') format('opentype');
   font-weight: 400;
   font-style: normal;
 }
 
 @font-face {
   font-family: 'Metropolis';
-  src: url('fonts/Metropolis-Medium.otf') format('opentype');
+  src: url('Metropolis-Medium.otf') format('opentype');
   font-weight: 500;
   font-style: normal;
 }
 
 @font-face {
   font-family: 'Metropolis';
-  src: url('fonts/Metropolis-SemiBold.otf') format('opentype');
+  src: url('Metropolis-SemiBold.otf') format('opentype');
   font-weight: 600;
   font-style: normal;
 }
 
 @font-face {
   font-family: 'Metropolis';
-  src: url('fonts/Metropolis-Bold.otf') format('opentype');
+  src: url('Metropolis-Bold.otf') format('opentype');
   font-weight: 700;
   font-style: normal;
 }
 
 @font-face {
   font-family: 'Metropolis';
-  src: url('fonts/Metropolis-ExtraBold.otf') format('opentype');
+  src: url('Metropolis-ExtraBold.otf') format('opentype');
   font-weight: 800;
   font-style: normal;
 }
@@ -396,3 +396,4 @@ form input, form select, form textarea {
 .read-more:hover {
   color: #ff5a60; /* lighter accent */
 }
+
