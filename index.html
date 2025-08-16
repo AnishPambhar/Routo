@@ -1,0 +1,348 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Routo – Smart Life Companion</title>
+  <link rel="stylesheet" href="style.css" />
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;700&display=swap" rel="stylesheet" />
+</head>
+<style>/* ---------- PPT SLIDER ---------- */
+.ppt-slider {
+  text-align: center;
+}
+
+.slider-container {
+  position: relative;
+  width: 100%;
+  max-width: 1200px;
+  margin: 0 auto;
+  overflow: hidden;
+  border-radius: 14px;
+  box-shadow: 0 6px 28px rgba(0, 0, 0, 0.12);
+}
+
+.slides {
+  display: flex;
+  transition: transform 0.6s ease-in-out;
+}
+
+.slides img {
+  width: 100%;
+  flex-shrink: 0;
+  object-fit: cover;
+}
+
+/* Navigation Buttons */
+.slide-btn {
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+  background: rgba(106, 13, 173, 0.6);
+  border: none;
+  color: white;
+  font-size: 2rem;
+  padding: 8px 14px;
+  cursor: pointer;
+  border-radius: 50%;
+  z-index: 2;
+  transition: background 0.3s ease;
+}
+
+.slide-btn:hover {
+  background: rgba(106, 13, 173, 0.85);
+}
+
+.slide-btn.prev {
+  left: 15px;
+}
+
+.slide-btn.next {
+  right: 15px;
+}
+
+/* Responsive */
+@media (max-width: 768px) {
+  .slide-btn {
+    font-size: 1.5rem;
+    padding: 6px 10px;
+  }
+}
+/* ---------- PPT SLIDER ---------- */
+.ppt-slider {
+  text-align: center;
+}
+
+.slider-container {
+  position: relative;
+  width: 100%;
+  max-width: 1200px;
+  margin: 0 auto;
+  overflow: hidden;
+  border-radius: 14px;
+  box-shadow: 0 6px 28px rgba(0, 0, 0, 0.12);
+}
+
+.slides {
+  display: flex;
+  transition: transform 0.6s ease-in-out;
+}
+
+.slides img {
+  width: 100%;
+  flex-shrink: 0;
+  object-fit: cover;
+}
+
+/* Navigation Buttons */
+.slide-btn {
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+  background: rgba(106, 13, 173, 0.6);
+  border: none;
+  color: white;
+  font-size: 2rem;
+  padding: 8px 14px;
+  cursor: pointer;
+  border-radius: 50%;
+  z-index: 2;
+  transition: background 0.3s ease;
+}
+
+.slide-btn:hover {
+  background: rgba(106, 13, 173, 0.85);
+}
+
+.slide-btn.prev {
+  left: 15px;
+}
+
+.slide-btn.next {
+  right: 15px;
+}
+
+/* Responsive */
+@media (max-width: 768px) {
+  .slide-btn {
+    font-size: 1.5rem;
+    padding: 6px 10px;
+  }
+}
+
+</style>
+<body>
+
+  <!-- HEADER -->
+  <header class="header">
+    <div class="wrap">
+     <div class="logo">
+  <img src="routo_logo.png" alt="Routo Logo">
+</div>
+
+      <nav class="nav">
+        <a href="#about">About</a>
+        <a href="#services">Services</a>
+        <a href="#how-it-works">How it Works</a>
+        <a href="#trust">Trust & Safety</a>
+        <a href="#policies">Policies</a>
+        <a href="#contact">Contact & Join</a>
+      </nav>
+    </div>
+  </header>
+
+  <!-- HERO -->
+<section class="hero">
+  <div class="wrap hero-grid">
+    <!-- LEFT SIDE CONTENT -->
+    <div class="hero-left">
+      <h1 class="hero-title">
+        Routo: Order, Send & Travel — All in One App
+      </h1>
+      <p class="hero-sub">
+        Experience India’s first route-driven logistics platform. 
+        Send parcels, book deliveries, or earn money while you travel — 
+        all in a single, easy-to-use app. 
+        Connecting customers, riders, and vendors like never before.
+      </p>
+
+      <div class="hero-ctas">
+        <a href="#" class="btn primary">📦 Order & Send Parcel</a>
+        <a href="#" class="btn primary">🚴 Join as Rider</a>
+        <a href="#" class="btn outline">🏪 Become a Vendor</a>
+      </div>
+
+      <div class="benefits-row">
+        <div class="benefit">💰 Extra Earning</div>
+        <div class="benefit">⚡ Smart Matching</div>
+        <div class="benefit">📍 Affordable Delivery</div>
+      </div>
+    </div>
+
+  </div>
+</section>
+
+
+  <!-- STATS -->
+  <section class="stats">
+    <div class="wrap grid-3">
+      <div class="stat-box">
+        <div class="stat-num">01</div>
+        <div class="stat-text">Riders on route</div>
+      </div>
+      <div class="stat-box">
+        <div class="stat-num">02</div>
+        <div class="stat-text">Local vendors</div>
+      </div>
+      <div class="stat-box">
+        <div class="stat-num">03</div>
+        <div class="stat-text">Affordable deliveries</div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ABOUT -->
+  <section class="section" id="about">
+    <div class="wrap">
+      <h2>About Routo</h2>
+      <p>
+        Routo connects daily commuters with local shops to create a community-powered delivery network. Riders deliver only along their fixed routes, vendors sell without hiring delivery staff, and customers get affordable local deliveries.
+      </p>
+    </div>
+  </section>
+  <!-- IDEA PRESENTATION SLIDER -->
+<!-- IDEA PRESENTATION SLIDER -->
+<section class="section alt ppt-slider">
+  <div class="wrap">
+    <h2>Our Idea in Action</h2>
+
+    <div class="slider-container">
+     
+      <div class="slides">
+        <img src="image1.png" alt="Slide 1" />
+        <img src="image2.png" alt="Slide 2" />
+        <img src="image3.png" alt="Slide 3" />
+        <img src="image4.png" alt="Slide 4" />
+      </div>
+
+    </div>
+
+  </div>
+</section>
+
+<script>
+  let currentSlide = 0;
+  const slides = document.querySelector('.slides');
+  const totalSlides = document.querySelectorAll('.slides img').length;
+
+  function changeSlide() {
+    currentSlide = (currentSlide + 1) % totalSlides;
+    slides.style.transform = `translateX(-${currentSlide * 100}%)`;
+  }
+
+  setInterval(changeSlide, 4000); // 4 seconds
+</script>
+
+
+  <!-- SERVICES -->
+  <section class="section alt" id="services">
+    <div class="wrap">
+      <h2>Services</h2>
+      <ul class="service-list">
+        <li><strong>Ride & Vendor Delivery</strong> – Vendors list products. Riders deliver the orders along their daily route. Fast, convenient and cheap.</li>
+        <li><strong>Personal Parcel</strong> – Send parcels with travelers already heading the same way — ideal for small local parcels.</li>
+        <li><strong>Pickup & Drop</strong> – Quick pickup & drop of personal items by nearby riders.</li>
+      </ul>
+    </div>
+  </section>
+
+  <!-- HOW IT WORKS -->
+  <section class="section" id="how-it-works">
+    <div class="wrap">
+      <h2>How it Works</h2>
+      <ol class="how-list">
+        <li>Sign up – Rider/Vendor/Customer registers with basic documents.</li>
+        <li>List or request – Vendors add products. Customers request deliveries.</li>
+        <li>Smart matching – Algorithm assigns deliveries based on route and urgency.</li>
+        <li>Delivery & payment – Proof of delivery, tracking, and payments settle through the platform.</li>
+      </ol>
+    </div>
+  </section>
+
+  <!-- TRUST & SAFETY -->
+  <section class="section alt" id="trust">
+    <div class="wrap">
+      <h2>Trust & Safety</h2>
+      <ul class="trust-list">
+        <li>Rider verification (ID & phone verification)</li>
+        <li>Real-time GPS tracking during delivery</li>
+        <li>Photo proof + OTP confirmation for delivery</li>
+        <li>Wallet & escrow: Riders paid after confirmation</li>
+        <li>Ratings, reviews and enforcement (warnings, suspensions)</li>
+        <li>Insurance option for high value items</li>
+      </ul>
+    </div>
+  </section>
+
+<!-- POLICIES -->
+<section class="section policies" id="policies">
+  <div class="wrap">
+    <h2 class="section-title">Our Policies</h2>
+
+    <div class="policy-card">
+      <h3>Privacy Policy</h3>
+      <p>We collect personal information only to provide better matching, secure payments, and customer support. Your data is protected and never shared with third parties without consent.</p>
+    </div>
+
+    <div class="policy-card">
+      <h3>Terms & Conditions</h3>
+      <p>By using Routo, you agree to provide accurate information, follow community guidelines, and comply with applicable laws. We reserve the right to suspend accounts for violations.</p>
+      <a href="terms.html" class="read-more">Read full Terms & Conditions →</a>
+    </div>
+
+    <div class="policy-card">
+      <h3>Refund & Cancellation Policy</h3>
+      <p>Cancellations before pickup are eligible for a refund after deducting the platform fee. Once an order is in transit, cancellation is not permitted.</p>
+    </div>
+  </div>
+</section>
+
+  <!-- CONTACT -->
+  <section class="section alt" id="contact">
+    <div class="wrap two-col">
+      <div>
+        <h2>Contact & Join</h2>
+        <p>Interested? Fill this form and we’ll reach out.</p>
+        <form>
+          <label>Your name</label>
+          <input type="text" placeholder="Name" required />
+          <label>Email or phone</label>
+          <input type="text" placeholder="Email or Phone" required />
+          <label>I am a...</label>
+          <select>
+            <option>Rider</option>
+            <option>Vendor</option>
+            <option>Customer</option>
+          </select>
+          <label>Tell us more (routes, city, shop name)...</label>
+          <textarea placeholder="Details"></textarea>
+          <button type="submit" class="btn primary">Send</button>
+        </form>
+        <p>Or email us at <strong>anishpambhar@gmail.com</strong></p>
+        <div class="app-badges">
+          <img src="https://upload.wikimedia.org/wikipedia/commons/7/78/Google_Play_Store_badge_EN.svg" alt="Google Play" />
+          <img src="https://developer.apple.com/assets/elements/badges/download-on-the-app-store.svg" alt="App Store" />
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- FOOTER -->
+  <footer class="footer">
+    <div class="wrap foot-row">
+      <div>© Routo. All rights reserved.</div>
+    </div>
+  </footer>
+
+</body>
+</html>
